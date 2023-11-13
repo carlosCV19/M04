@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto&display=swap');
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+.logocirculo{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    background-color:white;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.logo img{
+    width: 70px;
+}
+.lupa img{
+    width: 70px;
+}
+.idioma img{
+    width: 70px;
+}
+.usuario img{
+    width: 70px;
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    min-height: 13vh;
+}
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: right;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 15px;
+    color: rgba(255, 154, 2, 1);
+    display: block;
+    font-weight: 600;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.parte0-txt h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 154, 2, 1);
+    font-size: 50px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left: 40px;
+}
+.parte0-content{
+    display: flex;
+    background-color: rgba(0, 3, 26, 1);
+}
+.parte0-txt{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    padding: 50px 20px 100px 20px;
+    background-color: rgba(0, 3, 26, 1);
+}
+.link a{
+    color: white;
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    float: left;
+    justify-content: space-between;
+}
+.link a:hover{
+    color: rgba(255, 154, 2, 1);
+}
+.geo{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.geo-1 h2{
+    font-size: 50px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.geo-1 p{
+    font-size: 16px;
+    color:rgba(255, 154, 2, 1);
+    margin-bottom: 15px;
+}

@@ -1,0 +1,62 @@
+table{
+    font-weight: bold;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+th{
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    background-color: rgb(191, 235, 174);
+}
+td{
+    font-weight: bold;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+a:link{
+    color: black;
+    font-weight: bold;
+}
+.especial{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(4, 156, 110);
+}
+.especial2{
+    background-color: hotpink;
+
+}
+.especial3{
+    background-color: rgb(84, 201, 221);
+}
+.imagen{
+    background-image: url(https://ichef.bbci.co.uk/news/800/cpsprodpb/15665/production/_107435678_perro1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.especial4{
+    background-color: blueviolet;
+}
+.especial5{
+    background-color: crimson;
+}
+.especial6{
+    background-color: aquamarine;
+}
+.especial7{
+    background-color: brown;
+}
+.especial8{
+    background-color: darkgoldenrod;
+}
+.especial9{
+    background-color: rgb(57, 175, 92);
+}
+.especial10{
+    background-color: rgb(74, 136, 194);
+}

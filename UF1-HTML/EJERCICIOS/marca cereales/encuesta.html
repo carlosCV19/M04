@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRERALS</title>
+    <link rel="stylesheet" href="/encuesta.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="paginaprincipal.html" class="logo"><img src="/imagenes/logo.png" alt="logo"></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/dondecomprar.html">DÓNDE<br>COMPRAR</a></li>
+                    <li><a href="/contacto.html">CONTACTO</a></li>
+                    <li><a href="/nuestros productos.html">NUESTROS<br>PRODCUTOS</a></li>
+                    <li><a href="/nuestra marca.html">NUESTRA<br>MARCA</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="lupa"><img src="/imagenes/lupa.png" alt="lupa"></a>
+            <a href="#" class="idioma"><img src="/imagenes/idioma.png" alt="idioma"></a>
+            <a href="/cuenta.html" class="usuario"><img src="/imagenes/usuario.png" alt="usuario"></a>
+        </div>
+    </header>
+    <form action="#" method="post" class="especial">
+        <div class="forms-grupos">
+            <label><b>Name</b></label>
+            <input type="text" name="name-label" id="nombre" placeholder="Ingresa tu nombre" required>
+        </div>
+        <div class="forms-grupos">
+            <label><b>Email</b></label>
+            <input type="email" name="email-label" id="email" placeholder="Ingresa tu correo" required>
+        </div>
+        <div class="forms-grupos">
+            <label><b>Edad</b></label>
+            <input type="number" name="number-label" id="edad" placeholder="Ingresa tu edad" required min="15" max="99">
+        </div>
+        <div class="forms-grupos">
+            <p><b>¿Que te han parecido nuestros productos?</b></p>
+            <label>
+                <select name="usuario-opcion" id="select" class="selectOp">
+                    <option disabled selected value>Escoge una de las siguientes opciones</option>
+                    <option value="no-me-ha-gustado">No me ha gustado</option>
+                    <option value="mas-o-menos">Mas o menos me ha gustado</option>
+                    <option value="me-ha-gustado">Me ha gustado</option>
+                    <option value="magnífico">Un sabor magnífico</option>
+                </select>
+            </label>
+        </div>
+        <div class="forms-grupos">
+            <p><b>¿Recomendarias a tus amigos o familiares nuestros productos?</b></p>
+            <label>
+                <input type="radio" name="opcion-user" id="definitivamente">
+                <b>Definitivamente</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user" id="probablemente">
+                <b>Probablemente</b>
+            </label>
+            <label>
+                <input type="radio" name="opcion-user" id="no">
+                <b>La verdad esque no</b>
+            </label>
+        </div>
+        <div class="forms-grupos">
+            <p>Dinos porque SÍ o porque NO recomendarias nuestros productos</p>
+            <label>
+                <input type="text" name="coment" id="comentarios" placeholder="Escribe tu comentario...">
+            </label>
+        </div>
+        <div class="button"> 
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <a href="/nuestros productos.html">Productos</a>
+                <a href="/mapadelsitio.html">Mapa del sitio</a>
+                <a href="/contacto.html">Contactos</a>
+                <a href="/cuenta.html">Mi cuenta</a>
+                <a href="/avisolegal.html">Aviso legal</a>
+                <a href="/dondecomprar.html">Dónde comprar</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

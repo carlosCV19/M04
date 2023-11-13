@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="colores.css">
+    <title>Formulari</title>
+</head>
+<body>
+    <h1>ENQUESTA PROFESSORAT</h1>
+    <form action="ejemplo.php" method="get">
+        <div>
+            <fieldset class="e1">
+                <legend>DADES PERSONALS</legend>
+                    <p>Edad*<br><input type="number" name="edad" placeholder="Inseriu l'edat" required></p>
+                    <p>Email<br><input type="email" name="correo" size="80"></p>
+                    <p>Contraseña*<br><input type="password" name="contrasena" size="80" placeholder="Inseriu la contrasenya" required></p>
+                    <p>Data de naixament<br><input type="date" name="fecha"></p>
+                    <p>*Camps obligatoris</p>
+            </fieldset>    
+            <fieldset class="e2">
+                <legend>Moduls a evaluar</legend>
+                    <select name="Moduls" id="Moduls">
+                        <option value="">Seleccioneu</option>
+                        <option value="M01">M01</option>
+                        <option value="M02">M02</option>
+                        <option value="M03">M03</option>
+                        <option value="M04">M04</option>
+                        <option value="M05">M05</option>
+                    </select>
+            </fieldset>
+            <fieldset class="e3">
+                <legend>Cicle</legend>
+                    <input type="radio" name="opcio1" value="1"> ASIX
+                    <input type="radio" name="opcio2" value="2"> DAM
+                    <input type="radio" name="opcio3" value="3"> DAW
+                    <input type="radio" name="opcio4" value="4"> BIOINFORMÀTICA
+            </fieldset>
+            <fieldset class="e4">
+                <legend>Professor a evaluar</legend>
+                    <p>Nom Professor*<br><input type="text" name="nomProfessor" size="80" required placeholder="Inseriu el nom"></p>
+                    <p>Grau de satisfació del 0 al 10<br><input type="range" name="rango" min="1" max="10" step="1"></p>
+                    <p>Comentaris<br><textarea name="area" rows="5" cols="70" placeholder="Inseriu els comentaris"></textarea>></p>
+            </fieldset>
+            <fieldset class="e5">
+                <legend>Explica alguna cosa sobre tu</legend>
+                    <p>Ets repetidor?</p>
+                        <input type="checkbox" name="opcio1" value="1">Si
+                        <input type="checkbox" name="opcio2" value="2">No
+                    <p>Color preferit</p>
+                        <input type="color" name="colorElegido" value="#ff0000">
+                    <p>Dirección Web<br><input type="url" name="direccionweb"></p>
+                    <p>Situació actual<br>
+                        <select name="menusituacio">
+                            <option value="seleccionar">Seleccioneu</option>
+                            <option value="respuesta6">Estudis</option>
+                            <option value="respuesta7">FCT</option>
+                            <option value="respuesta8">Dual</option>
+                            <option value="respuesta9">Estudis-FCT</option>
+                            <option value="respuesta10">treballo-Estudis</option>
+                        </select><br>
+                            <input type="file" name="archivo"></p>
+            </fieldset>
+            <fieldset class="e6">
+                <legend>CURSOS EXTRES</legend>
+                    <input type="checkbox" name="casilla1">Cloud Computing
+                    <input type="checkbox" name="casilla2">Big data
+                    <input type="checkbox" name="casilla3">Unity 5
+            </fieldset>
+            <fieldset class="e7">
+                <legend>Data Enquesta</legend>
+                    <p>Fecha:<input type="date" name="fecha">Hora<input type="time" name="hora"></p> 
+            </fieldset>
+            <fieldset class="e8">
+                    <input type="submit" value="Enviar" onclick="alert('Estàs segur que les teves dades son correctes?')">
+                    <input type="reset" value="Esborra">
+                    <input type="button" value="Surt" onclick="window.confirm('¿Vols tancar la página?')">  
+            </fieldset>
+        </div>
+    </form>   
+</body>
+</html>
