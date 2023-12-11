@@ -7,28 +7,26 @@ h1{
 
 }
 .links { 
-    position: relative;
+    padding: 10px;
     top: 50px;
     margin: 0 auto;
+    position: relative;
     text-align: center;
-    padding: 10px;
-  
     max-width: fit-content;
  }
  .button {
-    padding: 20px;
-    background-color: black;
-    color: yellow;
-    border: none;
-    border-radius: 5px;
+    color: yellow; 
     cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    padding: 22px; 
+    transition: background-color 0.2s;
   }
   .button:hover {
     background-color: yellow;
     color: black;
   }
-  
   #fondo{
     background: url("fondo.jpg") top right no-repeat;
     background-size: cover;
